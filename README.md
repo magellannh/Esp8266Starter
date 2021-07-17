@@ -1,7 +1,7 @@
 # Esp8266Starter
 A  relatively self-contained starter system for use in Esp8266 based projects.  
 
-The idea is to use this project as a base when you start your project.  This base system offers a web control panel, settings edit/save, and event logging to let you focus on coding the specifics of your project.
+The idea is to use this project as a base when you start your project.  This base system offers a web control panel, settings edit/save, and event logging.  With these basic features already built/working, you can focus on coding the specifics of your project.
 
 This system includes the following base capabilities
  - WiFi support (through Esp8266WiFi, including using WiFiManager to save credentials
