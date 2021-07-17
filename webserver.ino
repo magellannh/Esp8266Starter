@@ -136,7 +136,7 @@ void handle_NotFound(){
 String ptr;
 String SendHTML(int pageToShowInContentPane){
 
-  //ptr.reserve(500); // Needs to be big.  Set initial size and allocation size to avoid heap frag
+  ptr.reserve(500); // Needs to be big.  Set initial size and allocation size to avoid heap frag
   
   ptr = "<!DOCTYPE html> <html>\n";
   ptr += "<head><meta name=\"viewport\" content=\"initial-scale=1.0\">\n";
