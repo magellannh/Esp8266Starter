@@ -1,5 +1,5 @@
 # Esp8266Starter
-A Self-contained starter system for use in Esp8266 based projects
+A  relatively self-contained starter system for use in Esp8266 based projects (does use several Esp8266 libraries)
 
 This system includes the following base capabilities
  - WiFi support, including using WiFiManager to save credentials
