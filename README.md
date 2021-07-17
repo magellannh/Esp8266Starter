@@ -18,14 +18,15 @@ This system includes the following base capabilities
                 NTPClient, WiFiClient, LittleFS, time.h, TZ.h (from Esp8266 core)
                 ElapsedMillis
 
-Web Control Panel Functions:
-    Button            Function
-  -----------      -----------------
-     Home          Displays basic operational status
-   History         Links to a page with the Event History (see eventHistory.ino)
-   Settings        Links to a page to edit/save the settings file managed by prefsMfr.ino  (uses html <textarea>)
-   Restart         Calls doSoftReset() function in Esp8266Starter.ino to inits counters, timers, etc
-  Send Mail 1      Results in a call to sendmail(1) through a helper function in Esp8266Starter.ino
-  Send Mail 2      Results in a call to sendmail(2) through a helper function in Esp8266Starter.ino
-  Erase WiFi       calls WiFiManager.resetSettings() then ESP.reset() (after confirm popup)
-  Hard Reset       calls ESP.reset() (after confirm popup) 
+Web Control Panel Overview
+
+Button      | Function
+---------   | -------------
+Home        | Displays basic operational status
+History     | Links to a page with the Event History (see eventHistory.ino)
+Settings    | Links to a page to edit/save the settings file managed by prefsMfr.ino  (uses html <textarea>)
+Restart     | Calls doSoftReset() function in Esp8266Starter.ino to inits counters, timers, etc
+Send Mail 1 | Results in a call to sendmail(1) through a helper function in Esp8266Starter.ino
+Send Mail 2 | Results in a call to sendmail(2) through a helper function in Esp8266Starter.ino
+Erase WiFi  | Calls WiFiManager.resetSettings() then ESP.reset() (after confirm popup)
+Hard Reset  | Calls ESP.reset() (after confirm popup) 
