@@ -10,7 +10,7 @@ This system includes the following base capabilities
     3) an event history (logging) capability
     4) some basic system controls (reset, clear WiFi settings, send email msg, etc)
     
- - Code to send email using smt2go.com smtp services as well as integration of email settings into prferences system
+ - Code to send email using smt2go.com smtp services as well as integration of email settings into preferences system
  - A simple event history system that records event messages strings along with a timestamp of when event happened
  - Misc date and time utilities to help with displaying current date and time and elapsedmillis timestamps
  
