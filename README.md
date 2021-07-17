@@ -1,8 +1,10 @@
 # Esp8266Starter
-A  relatively self-contained starter system for use in Esp8266 based projects (does use several Esp8266 libraries).  The idea is to use this project as a base when you start your project.  This base system handles the web control panel, settings, and event logging so you can focus on coding up support for the specifics of your project.
+A  relatively self-contained starter system for use in Esp8266 based projects.  
+
+The idea is to use this project as a base when you start your project.  This base system offers a web control panel, settings edit/save, and event logging to let you focus on coding the specifics of your project.
 
 This system includes the following base capabilities
- - WiFi support, including using WiFiManager to save credentials
+ - WiFi support (through Esp8266WiFi, including using WiFiManager to save credentials
  - A simple LittleFS based preferences system with web edit/save of configuration file (for non-wifi settings)
  - A fully functioning system control website with 
     1) a system status view
