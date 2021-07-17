@@ -32,4 +32,4 @@ Erase WiFi     | Calls WiFiManager.resetSettings() then ESP.reset() (after confi
 Hard Reset     | Calls ESP.reset() (after confirm popup) 
 
 Check out the wiki for screenshots: 
- https://github.com/magellannh/Esp8266Starter/wiki
+ https://github.com/magellannh/Esp8266Starter/wiki/Esp8266-Web-Control-Panel
