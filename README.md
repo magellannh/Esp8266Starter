@@ -20,13 +20,13 @@ This system includes the following base capabilities
 
 Web Control Panel Overview
 
-Button      | Function
----------   | -------------
-Home        | Displays basic operational status
-History     | Links to a page with the Event History (see eventHistory.ino)
-Settings    | Links to a page to edit/save the settings file managed by prefsMfr.ino  (uses html <textarea>)
-Restart     | Calls doSoftReset() function in Esp8266Starter.ino to inits counters, timers, etc
-Send Mail 1 | Results in a call to sendmail(1) through a helper function in Esp8266Starter.ino
-Send Mail 2 | Results in a call to sendmail(2) through a helper function in Esp8266Starter.ino
-Erase WiFi  | Calls WiFiManager.resetSettings() then ESP.reset() (after confirm popup)
-Hard Reset  | Calls ESP.reset() (after confirm popup) 
+Button         | Function
+------------   | -------------
+Home           | Displays basic operational status
+History        | Links to a page with the Event History (see eventHistory.ino)
+Settings       | Links to a page to edit/save the settings file managed by prefsMfr.ino  (uses html <textarea>)
+Restart        | Calls doSoftReset() function in Esp8266Starter.ino to inits counters, timers, etc
+Send Mail 1    | Results in a call to sendmail(1) through a helper function in Esp8266Starter.ino
+Send Mail 2    | Results in a call to sendmail(2) through a helper function in Esp8266Starter.ino
+Erase WiFi     | Calls WiFiManager.resetSettings() then ESP.reset() (after confirm popup)
+Hard Reset     | Calls ESP.reset() (after confirm popup) 
