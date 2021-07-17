@@ -19,7 +19,7 @@ This system includes the following base capabilities
                 ElapsedMillis
 
 Web Control Panel Functions:
-//    Button            Function
+    Button            Function
   -----------      -----------------
      Home          Displays basic operational status
    History         Links to a page with the Event History (see eventHistory.ino)
